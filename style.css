@@ -121,7 +121,8 @@ nav a {
     margin-left: 230px;
     margin-right: 230px;
 }
-.about-content{
+
+.about-content {
     background-color: #FFFFFF;
 }
 
@@ -139,6 +140,22 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    padding-bottom: 30px;
     margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+}
+.info-description{
+        font-size: 20px;
+        font-weight: 700;
+        color:#474747;
 }
